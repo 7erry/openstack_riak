@@ -13,8 +13,8 @@ apt-get install -y libssl0.9.8
 dpkg -i riak_1.1.4-1_amd64.deb
 
 # get our riak config files from cloud.nimbus
-sudo wget "http://cloud.nimbus.att.net/app.config"
-sudo wget "http://cloud.nimbus.att.net/vm.args"
+sudo wget "https://github.com/7erry/openstack_riak/raw/master/app.config"
+sudo wget "https://github.com/7erry/openstack_riak/raw/master/vm.args"
 # change the ip address to be that of eth0
 echo "/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print \$1}' " >~/myip.sh
 chmod o+x ~/myip.sh

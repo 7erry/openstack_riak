@@ -8,7 +8,3 @@ INSTANCE	i-00000c64	ami-00000021			pending	apifoundry-dev-ewr1	3m1.small	2012-07
 INSTANCE	i-00000c65	ami-00000021			pending	apifoundry-dev-ewr1	4m1.small	2012-07-25T16:45:41Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
 INSTANCE	i-00000c61	ami-00000021			pending	apifoundry-dev-ewr1	0m1.small	2012-07-25T16:45:40Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
 INSTANCE	i-00000c62	ami-00000021			pending	apifoundry-dev-ewr1	1m1.small	2012-07-25T16:45:40Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-twalters@tw278e:~/github/openstack_riak$ rm node_instances.txt 
-twalters@tw278e:~/github/openstack_riak$ cat master_instance.txt 
-RESERVATION	r-bhxdny59	24	nimbus
-INSTANCE	i-00000c60	ami-00000021			pending	apifoundry-dev-ewr1	0m1.small	2012-07-25T16:36:58Z	unknown zone	aki-0000001f	ari-00000020		

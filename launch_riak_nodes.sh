@@ -56,7 +56,7 @@ if ((!options_found)); then
 			exit 1
 fi
 
-euca-run-instances $aminame -g $secgroup -k $seckey -f ./riak_master.sh -t $amitype -n $instances >node_instances.txt
+euca-run-instances $aminame -g $secgroup -k $seckey -f ./riak_node.sh -t $amitype -n $instances >node_instances.txt
 cat node_instances.txt
 
 

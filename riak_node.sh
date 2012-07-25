@@ -29,6 +29,6 @@ riak start
 # wait a second
 sleep 15
 # join the master node
-riak-admin join riak@CHANGEMETOMASTERIPADDY
+riak-admin join riak@CHANGEMETOMASTERIPADDRESS
 
 # done

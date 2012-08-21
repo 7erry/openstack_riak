@@ -6,8 +6,10 @@ export DEBIAN_FRONTEND=noninteractive
 yum -y update
 
 # install as per Basho
-wget http://downloads.basho.com/riak/CURRENT/riak-1.1.4-1.el6.x86_64.rpm
-rpm -Uvh riak-1.1.4-1.el6.x86_64.rpm
+#wget http://downloads.basho.com/riak/CURRENT/riak-1.1.4-1.el6.x86_64.rpm
+#rpm -Uvh riak-1.1.4-1.el6.x86_64.rpm
+wget http://downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/CURRENT/rhel/6/riak-1.2.0-1.el6.x86_64.rpm
+rpm -Uvh riak-1.2.0-1.el6.x86_64.rpm
 
 # get perl
 yum -y install perl

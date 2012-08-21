@@ -33,6 +33,10 @@
 	4) Create a cluster of nodes that join the master:
 		launch_riak_nodes.sh -i ami-00000021 -g nimbus -k apifoundry-dev-ewr1 -t m1.small -n 99
 
+	5) (1.2 new changes) execute the following on the seed node:
+		>riak-admin cluster plan
+		>riak-admin cluster commit
+
 	You have a 100 node cluster.
 
 	master_instance.txt contains the instance id and description for the master node.

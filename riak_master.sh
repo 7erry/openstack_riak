@@ -7,10 +7,17 @@ apt-get update && apt-get upgrade -y
 
 apt-get install -y wget
 
+# add snmp daemon
+apt-get install -y snmpd
+#sed –i 's/-V systemonly//g' /etc/snmp/snmpd.conf
+#sed –i 's/^agentAddress/#agentAddress/g' /etc/snmp/snmpd.conf
+#sed -i 's/^#agentAddress udp:161/agentAddress udp:161/g' /etc/snmp/snmpd.conf
+#/etc/init.d/snmpd restart
+
 # install as per Basho
-wget http://downloads.basho.com/riak/CURRENT/riak_1.1.4-1_amd64.deb
+wget http://downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/CURRENT/ubuntu/lucid/riak_1.2.0-1_amd64.deb
 apt-get install -y libssl0.9.8
-dpkg -i riak_1.1.4-1_amd64.deb
+dpkg -i riak_1.2.0-1_amd64.deb
 
 # get our riak config files from cloud.nimbus
 sudo wget "https://github.com/7erry/openstack_riak/raw/master/app.config"

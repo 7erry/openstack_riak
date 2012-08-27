@@ -1,3 +1,2 @@
-RESERVATION	r-bhxdny59	24	nimbus
-INSTANCE	i-00000c60	ami-00000021			pending	apifoundry-dev-ewr1	0m1.small	2012-07-25T16:36:58Z	unknown zone	aki-0000001f	ari-00000020		
-
+RESERVATION	r-od5fbg01	24	nimbus
+INSTANCE	i-00000f4e	ami-00000021			pending	apifoundry-dev-ewr1	0		m1.medium	2012-08-21T19:23:31Z	unknown zone	aki-0000001f	ari-00000020		monitoring-disabled					instance-store									

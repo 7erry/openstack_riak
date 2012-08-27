@@ -1,10 +1,5 @@
-RESERVATION	r-p83cra0t	24	nimbus
-INSTANCE	i-00000c68	ami-00000021			pending	apifoundry-dev-ewr1	7m1.small	2012-07-25T16:45:43Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c69	ami-00000021			pending	apifoundry-dev-ewr1	8m1.small	2012-07-25T16:45:43Z	unknown zone	aki-0000001f	ari-00000020		monitoring-disabled					instance-store				
-INSTANCE	i-00000c66	ami-00000021			pending	apifoundry-dev-ewr1	5m1.small	2012-07-25T16:45:42Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c67	ami-00000021			pending	apifoundry-dev-ewr1	6m1.small	2012-07-25T16:45:42Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c63	ami-00000021			pending	apifoundry-dev-ewr1	2m1.small	2012-07-25T16:45:41Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c64	ami-00000021			pending	apifoundry-dev-ewr1	3m1.small	2012-07-25T16:45:41Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c65	ami-00000021			pending	apifoundry-dev-ewr1	4m1.small	2012-07-25T16:45:41Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c61	ami-00000021			pending	apifoundry-dev-ewr1	0m1.small	2012-07-25T16:45:40Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
-INSTANCE	i-00000c62	ami-00000021			pending	apifoundry-dev-ewr1	1m1.small	2012-07-25T16:45:40Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store					
+RESERVATION	r-867iznn0	24	nimbus
+INSTANCE	i-00000f52	ami-00000021			pending	apifoundry-dev-ewr1	3		m1.medium	2012-08-21T19:25:15Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store									
+INSTANCE	i-00000f51	ami-00000021			pending	apifoundry-dev-ewr1	2		m1.medium	2012-08-21T19:25:11Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store									
+INSTANCE	i-00000f50	ami-00000021			pending	apifoundry-dev-ewr1	1		m1.medium	2012-08-21T19:25:06Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store									
+INSTANCE	i-00000f4f	ami-00000021			pending	apifoundry-dev-ewr1	0		m1.medium	2012-08-21T19:25:01Z	ewr1	aki-0000001f	ari-00000020		monitoring-disabled					instance-store									

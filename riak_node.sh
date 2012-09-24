@@ -36,7 +36,7 @@ riak start
 # wait a second
 sleep 15
 # join the master node
-riak-admin cluster join riak@CHANGEMETOMASTERNODENAME
+riak-admin cluster join riak@CHANGEMETOMASTERIPADDRESS
 riak-admin cluster plan
 riak-admin cluster commit
 
